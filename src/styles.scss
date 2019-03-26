@@ -1,1 +1,23 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+.fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+p {
+    border: 1px solid gray;
+    margin: 7rem auto;
+    color: darkolivegreen;
+    padding: 25px;
+}

@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ColorSwitchComponent } from './components/color-switch/color-switch.component';
+import { GitComponent } from './components/git/git.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ColorSwitchComponent } from './components/color-switch/color-switch.com
     HomeComponent,
     AboutComponent,
     NavbarComponent,
-    ColorSwitchComponent
+    ColorSwitchComponent,
+    GitComponent
   ],
   imports: [
     FormsModule,

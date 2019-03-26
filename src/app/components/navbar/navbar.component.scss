@@ -1,0 +1,9 @@
+.col {
+    text-align: center;
+    margin: 2rem 3rem;
+}
+@media (max-width: 767px) {
+    .m-5 {
+        margin: 3rem 1rem !important;
+    }
+}
